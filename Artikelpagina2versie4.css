@@ -1,0 +1,119 @@
+/* Artikel opgemaakt met CSS Bling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: verdana, calibri, sans-serif;
+    line-height: 1.5em;
+}
+
+/* Header */
+body > header {
+    background-color: #fecb2f;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+/* Opdracht 2.1 en 2.2 */
+img[src="cmd_logo.png"]:hover {
+    transform: scale(8) rotate(3600deg);
+    transition: all 1s ease 0s;
+}
+
+img[src="beroepen.jpg"]:hover {
+    transform: scale(8) rotate(-360deg);
+    transition: all 2s ease 0s;
+}
+
+/* Main */
+main {
+    background-color: aliceblue;
+    font-size: 1em;
+    min-width: 30.5em;
+    width: 50%;
+    float: left;
+    margin: 0px 0px 1% 21%;
+    padding: 2.5em;
+}
+
+/* Opdracht 2.1 en 2.2 */
+p:hover {
+    transform: rotate(3600deg);
+    border-radius: 10px;
+    background: #fecb2f;
+    transition: all 1s ease 0s;
+}
+
+h1, h2, h3 {
+    text-shadow: 3px 5px 5px skyblue;
+    color: bl
+}
+
+img[src="beroepen.jpg"] {
+    box-shadow: 5px 10px 5px skyblue;
+    border-radius: 15px;
+}
+
+a {
+    color: royalblue;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Gerelateerde artikelen */
+.related {
+    background-color: #dde7ef;
+    font-size: 1em;
+    width: 80%;
+    clear: left;
+    margin: 0px 0px 1% 21%;
+    padding: 2em;
+}
+
+.related > article {
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    padding: 2%;
+}
+
+header h3 {
+    padding: 0em 0em 2em 0em;
+}
+
+main ~ section {
+    color: crimson;
+}
+
+/* Aside */
+aside {
+    background-color: #dde7ef;
+    font-size: .9em;
+    width: 28%;
+    position: absolute;
+    top: .6em;
+    right: 0em;
+    padding: 2em;
+}
+
+/* Footer */
+aside + footer {
+    background-color: #bdd7ee;
+    margin: 0% 0% 0% 21%;
+    padding: 2em;
+}
+
+
+
+
+
